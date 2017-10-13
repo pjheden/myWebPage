@@ -1,17 +1,6 @@
 <template>
   <div>
     <h1> Julian Hedén </h1>
-    <div class = "sliderContainer">
-      <slider animation="fade">
-        <slider-item v-for="(project, index) in projects" :key="index">
-          <div style="backgroundColor: #777d9e; width:100%; height:100%;">
-            <p style="line-height: 280px; font-size: 5rem; text-align: center;">{{project.title}}</p>
-          </div>
-        </slider-item>
-      </slider>
-  </div>
-
-    <hr>
     <h2> Computer Science student </h2>
     <h2> Royale Institute of Technology, KTH </h2>
     <h3> Lorem Ipsum </h3>
@@ -21,28 +10,16 @@
   </div>
 </template>
 
-<script >
-  import { Slider, SliderItem } from 'vue-easy-slider'
-
+<script>
   export default {
-    name: 'Home',
-    components: {
-      Slider,
-      SliderItem
-    },
-    props: {
-      projects: Array
-    }
+    name: 'Home'
   }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped >
-.sliderContainer {
-  width:40%;
-  margin: 0 auto;
-}
-  p {
-    margin: 0;
+  div {
+    width:50%;
+    margin:0 auto;
   }
 </style>

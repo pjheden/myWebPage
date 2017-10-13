@@ -31,7 +31,5 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 
 ## TODO
 
-Finish TODO in projectlist.vue
-
 ProjectsMap and ProjectCircle is currently unusued,
 remove or fix

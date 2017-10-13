@@ -1,15 +1,17 @@
 <template>
   <div id="app">
     <!-- <router-view></router-view> -->
-    <HeaderNav :items="items"></HeaderNav>
-    <Home :projects="projects"></Home>
+    <!-- <HeaderNav :items="items"></HeaderNav> -->
+    <Slideshow :projects="projects"></Slideshow>
+    <Home></Home>
     <ProjectList :projects="projects"></ProjectList>
     <Contact id = "aaa"></Contact>
   </div>
 </template>
 
 <script>
-import HeaderNav from '@/components/HeaderNav'
+// import HeaderNav from '@/components/HeaderNav'
+import Slideshow from '@/components/Slideshow'
 import Home from '@/components/Home'
 import ProjectList from '@/components/ProjectList'
 import Contact from '@/components/Contact'
@@ -17,7 +19,7 @@ import Contact from '@/components/Contact'
 export default {
   name: 'app',
   components: {
-    HeaderNav,
+    Slideshow,
     Home,
     ProjectList,
     Contact
@@ -76,6 +78,5 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
