@@ -1,11 +1,11 @@
 <template >
-  <div >
+  <div class="container">
     <h1> Projects </h1>
     <hr>
     <div>
       <ul>
         <li v-for="project in projects" v-on:click="selectProject(project.title)">
-          <img src="../assets/logo.png" :alt=project.title>
+          <img src="../assets/logo.png" :alt="project.title">
           <h4>{{project.title}}</h4>
           {{project.description}}
         </li>
@@ -33,6 +33,10 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped >
+  .container{
+    background:linear-gradient(45deg, blue, teal 40%, red);
+  }
+
   h1, h2 {
     font - weight: normal;
   }
