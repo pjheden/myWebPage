@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <!-- <router-view></router-view> -->
-    <HeaderNav></HeaderNav>
-    <Home></Home>
-    <ProjectList></ProjectList>
+    <HeaderNav :items="items"></HeaderNav>
+    <Home :projects="projects"></Home>
+    <ProjectList :projects="projects"></ProjectList>
     <Contact id = "aaa"></Contact>
   </div>
 </template>
@@ -21,6 +21,45 @@ export default {
     Home,
     ProjectList,
     Contact
+  },
+  data () {
+    return {
+      items: [
+        {
+          href: '/',
+          text: 'Home',
+          id: 'homeItem'
+        },
+        {
+          href: '/projects',
+          text: 'Projects',
+          id: 'projectItem'
+        },
+        {
+          href: '/contact',
+          text: 'Contact',
+          id: 'contactItem'
+        }
+      ],
+      projects: [{
+        title: 'Last Ship Standing',
+        image: 'pirateship',
+        description: 'A js game'
+      }, {
+        title: 'Engineer Your Future',
+        image: 'Education Circle',
+        description: 'A education tool for deciding your future'
+      }, {
+        title: 'Kiwi swiper',
+        image: 'neuralNet',
+        description: 'A tool based on neural network technology to learn and adapt..'
+      }, {
+        title: 'Checkers AI',
+        image: 'checkers',
+        description: 'An AI that is an expert in checkers'
+      }
+      ]
+    }
   }
 }
 </script>

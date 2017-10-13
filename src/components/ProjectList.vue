@@ -18,27 +18,8 @@
 <script >
   export default {
     name: 'ProjectList',
-    data () {
-      return {
-        projects: [{
-          title: 'Last Ship Standing',
-          image: 'pirateship',
-          description: 'A js game'
-        }, {
-          title: 'Engineer Your Future',
-          image: 'Education Circle',
-          description: 'A education tool for deciding your future'
-        }, {
-          title: 'Kiwi swiper',
-          image: 'neuralNet',
-          description: 'A tool based on neural network technology to learn and adapt..'
-        }, {
-          title: 'Checkers AI',
-          image: 'checkers',
-          description: 'An AI that is an expert in checkers'
-        }
-        ]
-      }
+    props: {
+      projects: Array
     },
     methods: {
       // TODO: Change the projects list to contain a bool, if its local or external routing

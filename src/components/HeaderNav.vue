@@ -15,23 +15,8 @@
 <script >
   export default {
     name: 'HeaderNav',
-    data () {
-      return {
-        items: [
-          {
-            href: '/',
-            text: 'Home'
-          },
-          {
-            href: '/projects',
-            text: 'Projects'
-          },
-          {
-            href: '/contact',
-            text: 'Contact'
-          }
-        ]
-      }
+    props: {
+      items: Array
     }
   }
 </script>
