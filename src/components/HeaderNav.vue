@@ -3,8 +3,9 @@
     <nav>
         <ul>
           <li
-            v-for="item in items">
-            <router-link :to="item.href">{{item.text}}</router-link>
+            v-for="(item, index) in items">
+            <a href="#"> {{item.text}} </a>
+            <!-- <router-link :to="item.href">{{item.text}}</router-link> -->
           </li>
         </ul>
       </nav>

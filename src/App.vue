@@ -4,7 +4,7 @@
     <HeaderNav></HeaderNav>
     <Home></Home>
     <ProjectList></ProjectList>
-    <Contact></Contact>
+    <Contact id = "aaa"></Contact>
   </div>
 </template>
 
