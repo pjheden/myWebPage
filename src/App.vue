@@ -1,17 +1,26 @@
 <template>
   <div id="app">
+    <!-- <router-view></router-view> -->
     <HeaderNav></HeaderNav>
-    <router-view></router-view>
+    <Home></Home>
+    <ProjectList></ProjectList>
+    <Contact></Contact>
   </div>
 </template>
 
 <script>
 import HeaderNav from '@/components/HeaderNav'
+import Home from '@/components/Home'
+import ProjectList from '@/components/ProjectList'
+import Contact from '@/components/Contact'
 
 export default {
   name: 'app',
   components: {
-    HeaderNav
+    HeaderNav,
+    Home,
+    ProjectList,
+    Contact
   }
 }
 </script>
