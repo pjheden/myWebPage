@@ -50,6 +50,7 @@ const projects = [
     title: 'Last Ship Standing',
     meta: 'Propulsion Engineer',
     description: 'A js game',
+    url: 'https://people.kth.se/~pjheden/LastShipStanding/index.html',
     images: [
       {
         thumbnail: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=firstimage&w=150&h=150',
@@ -67,8 +68,27 @@ const projects = [
   },
   {
     title: 'Engineer Your Future',
-    meta: 'Propulsion Engineer',
     description: 'A education tool for deciding your future',
+    url: 'https://people.kth.se/~pjheden/engineer-your-future/index.html',
+    images: [
+      {
+        thumbnail: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=firstimage&w=150&h=150',
+        original: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=firstimage&w=900&h=900'
+      },
+      {
+        thumbnail: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=secondimage&w=150&h=150',
+        original: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=secondimage&w=900&h=900'
+      },
+      {
+        thumbnail: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=thirdImage&w=150&h=150',
+        original: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=thirdImage&w=900&h=900'
+      }
+    ]
+  },
+  {
+    title: 'White Men Came',
+    description: 'Mobile Android Game',
+    url: 'https://play.google.com/store/apps/details?id=com.JuliansCompany.JuliansGame',
     images: [
       {
         thumbnail: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=firstimage&w=150&h=150',

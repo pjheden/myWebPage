@@ -1,8 +1,8 @@
 <template>
   <div>
       <slider animation="fade" height="20em">
-        <slider-item v-for="(project, index) in projects" :key="index" :on-click="selectProject(project.title)">
-          <div style="backgroundColor: #777d9e; width:100%; height:100%;">
+        <slider-item v-for="(project, index) in projects" :key="index" >
+          <div v-on:click="selectProject(project.url)" style="backgroundColor: #777d9e; width:100%; height:100%;">
             <p style="line-height: 280px; font-size: 5rem; text-align: center;">{{project.title}}</p>
           </div>
         </slider-item>
@@ -23,8 +23,8 @@
       projects: Array
     },
     methods: {
-      selectProject: function (projectName) {
-        // TODO:
+      selectProject: function (url) {
+        window.open(url, '_blank')
       }
     }
   }
@@ -35,6 +35,7 @@
   div {
     width:100%;
     margin: 0 auto;
+    cursor: pointer;
   }
   p {
     margin: 0;

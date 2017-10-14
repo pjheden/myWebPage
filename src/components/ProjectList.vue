@@ -4,7 +4,7 @@
     <hr> -->
     <div>
       <ul>
-        <li v-for="project in projects" v-on:click="selectProject(project.title)">
+        <li v-for="project in projects" v-on:click="selectProject(project.url)">
           <div class="listContainer">
             <img src="../assets/logo.png" :alt="project.title">
             <h4>{{project.title}}</h4>
@@ -27,7 +27,8 @@
       // TODO: Change the projects list to contain a bool, if its local or external routing
       // and change the function based on that. so window.open if external, and router.push for internal
       // Local project routing
-      selectProject: function (projectName) {
+      selectProject: function (url) {
+        window.open(url, '_blank')
       }
     }
   }
@@ -62,6 +63,7 @@
     left: auto;
     box-sizing: border-box;
     min-height: 1px;
+    cursor: pointer;
 
     box-shadow: 0 0 1px transparent;
     -webkit-transition: all ease 0.3s;
