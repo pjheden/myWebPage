@@ -1,13 +1,15 @@
 <template >
   <div class="container">
-    <h1> Projects </h1>
-    <hr>
+    <!-- <h1> Projects </h1>
+    <hr> -->
     <div>
       <ul>
         <li v-for="project in projects" v-on:click="selectProject(project.title)">
-          <img src="../assets/logo.png" :alt="project.title">
-          <h4>{{project.title}}</h4>
-          {{project.description}}
+          <div class="listContainer">
+            <img src="../assets/logo.png" :alt="project.title">
+            <h4>{{project.title}}</h4>
+            {{project.description}}
+          </div>
         </li>
       </ul>
     </div>
@@ -34,7 +36,7 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped >
   .container{
-    background:linear-gradient(45deg, blue, teal 40%, red);
+    background:linear-gradient(90deg, rgba(231, 225, 148, 0.37), white 50%, rgba(231, 225, 148, 0.37));
   }
 
   h1, h2 {
@@ -43,26 +45,53 @@
 
   ul {
     list - style - type: none;
-    padding: 0;
-    width: 40%;
     list-style-type: none;
     display: table;
-    margin: 0 auto;
+    padding: 1em 0em 5em 5em;
   }
 
   li {
+    height: 18em;
+    width:  30em;
+    padding: 1em 3em 1em 3em;
+    margin: 1em 3em 1em 3em;
     display: inline - block;
-    height: 90%;
-    padding: 1em 0 1em 0;
+    border-radius: 1em;
+    float: left;
+    right: auto;
+    left: auto;
+    box-sizing: border-box;
+    min-height: 1px;
+
+    box-shadow: 0 0 1px transparent;
+    -webkit-transition: all ease 0.3s;
+  	-moz-transition: all ease 0.3s;
+  	 transition: all ease 0.3s;
+
   }
 
-  li:nth-child(odd) {
+  /*li:nth-child(odd) {
     background: #EFEEEE;
+  }*/
+
+  li:nth-child(4n+1) {
+    background:linear-gradient(to right,#2f80ed,#56ccf2);
+  }
+  li:nth-child(4n+2) {
+    background:linear-gradient(to right,#56ccf2,#96c93d);
+  }
+  li:nth-child(4n+3) {
+    background:linear-gradient(to right,#96c93d,#e8d139);
+  }
+  li:nth-child(4n+0) {
+    background:linear-gradient(to right,#e8d139,#ffa971);
   }
 
-  li:hover {
-    background: #676666;
+  li:hover{
     /*Should put in some shadow instead, cards*/
+    box-shadow: 0em 0em 4em black;
+
+
   }
 
   img {
