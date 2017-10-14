@@ -6,7 +6,7 @@
       <ul>
         <li v-for="project in projects" v-on:click="selectProject(project.url)">
           <div class="listContainer">
-            <img src="../assets/logo.png" :alt="project.title">
+            <img :src="project.image" :alt="project.title">
             <h4>{{project.title}}</h4>
             {{project.description}}
           </div>
@@ -37,7 +37,6 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped >
   .container{
-    background:linear-gradient(90deg, rgba(231, 225, 148, 0.37), white 50%, rgba(231, 225, 148, 0.37));
   }
 
   h1, h2 {
@@ -98,9 +97,8 @@
 
   img {
     float: left;
-    width: 6em;
-    height: 6em;
-    margin-left: 1em;
+    width: 10em;
+    height: 10em;
   }
 
 

@@ -1,5 +1,6 @@
 const introduce = {
   name: 'PER JULIAN HEDÉN',
+  image: 'https://media-exp1.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAUMAAAAJDZiNjJjN2I0LTM1N2QtNGQxNS04NTdjLTkzNGMwMzAyMzg0OA.jpg',
   jobTitle: 'Computer Science student, Full-Stack Developer',
   workPlace: 'Royale Institute of Technology, KTH',
   location: 'Stockholm, SE',
@@ -51,96 +52,35 @@ const projects = [
     meta: 'Propulsion Engineer',
     description: 'A js game',
     url: 'https://people.kth.se/~pjheden/LastShipStanding/index.html',
-    images: [
-      {
-        thumbnail: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=firstimage&w=150&h=150',
-        original: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=firstimage&w=900&h=900'
-      },
-      {
-        thumbnail: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=secondimage&w=150&h=150',
-        original: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=secondimage&w=900&h=900'
-      },
-      {
-        thumbnail: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=thirdImage&w=150&h=150',
-        original: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=thirdImage&w=900&h=900'
-      }
-    ]
+    image: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=firstimage&w=900&h=900'
   },
   {
     title: 'Engineer Your Future',
     description: 'A education tool for deciding your future',
     url: 'https://people.kth.se/~pjheden/engineer-your-future/index.html',
-    images: [
-      {
-        thumbnail: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=firstimage&w=150&h=150',
-        original: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=firstimage&w=900&h=900'
-      },
-      {
-        thumbnail: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=secondimage&w=150&h=150',
-        original: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=secondimage&w=900&h=900'
-      },
-      {
-        thumbnail: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=thirdImage&w=150&h=150',
-        original: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=thirdImage&w=900&h=900'
-      }
-    ]
+    image: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=firstimage&w=900&h=900'
+
   },
   {
     title: 'White Men Came',
     description: 'Mobile Android Game',
     url: 'https://play.google.com/store/apps/details?id=com.JuliansCompany.JuliansGame',
-    images: [
-      {
-        thumbnail: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=firstimage&w=150&h=150',
-        original: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=firstimage&w=900&h=900'
-      },
-      {
-        thumbnail: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=secondimage&w=150&h=150',
-        original: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=secondimage&w=900&h=900'
-      },
-      {
-        thumbnail: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=thirdImage&w=150&h=150',
-        original: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=thirdImage&w=900&h=900'
-      }
-    ]
+    image: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=firstimage&w=900&h=900'
+
   },
   {
     title: 'Kiwi swiper',
     meta: 'Propulsion Engineer',
     description: 'A Nerual Network based classifier',
-    images: [
-      {
-        thumbnail: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=firstimage&w=150&h=150',
-        original: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=firstimage&w=900&h=900'
-      },
-      {
-        thumbnail: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=secondimage&w=150&h=150',
-        original: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=secondimage&w=900&h=900'
-      },
-      {
-        thumbnail: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=thirdImage&w=150&h=150',
-        original: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=thirdImage&w=900&h=900'
-      }
-    ]
+    image: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=firstimage&w=900&h=900'
+
   },
   {
     title: 'Checkers AI',
     meta: 'Propulsion Engineer',
     description: 'An AI that is an expert in checkers',
-    images: [
-      {
-        thumbnail: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=firstimage&w=150&h=150',
-        original: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=firstimage&w=900&h=900'
-      },
-      {
-        thumbnail: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=secondimage&w=150&h=150',
-        original: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=secondimage&w=900&h=900'
-      },
-      {
-        thumbnail: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=thirdImage&w=150&h=150',
-        original: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=thirdImage&w=900&h=900'
-      }
-    ]
+    image: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=firstimage&w=900&h=900'
+
   }
 ]
 

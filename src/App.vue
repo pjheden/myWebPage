@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <!-- <router-view></router-view> -->
-    <!-- <HeaderNav :items="items"></HeaderNav> -->
-    <Slideshow :projects="data.projects"></Slideshow>
+    <HeaderNav :items="items"></HeaderNav>
+    <!-- <Slideshow :projects="data.projects"></Slideshow> -->
     <Home :contact="data.contactData" :introduction="data.introduce"></Home>
     <ProjectList :projects="data.projects"></ProjectList>
     <Contact :contact="data.contactData"></Contact>
@@ -10,8 +10,8 @@
 </template>
 
 <script>
-// import HeaderNav from '@/components/HeaderNav'
-import Slideshow from '@/components/Slideshow'
+import HeaderNav from '@/components/HeaderNav'
+// import Slideshow from '@/components/Slideshow'
 import Home from '@/components/Home'
 import ProjectList from '@/components/ProjectList'
 import Contact from '@/components/Contact'
@@ -21,7 +21,7 @@ import ResumeData from '@/data'
 export default {
   name: 'app',
   components: {
-    Slideshow,
+    HeaderNav,
     Home,
     ProjectList,
     Contact
@@ -54,7 +54,6 @@ export default {
 <style>
 body {
   margin: 0px;
-  position-top: 0px;
 }
 
 #app {

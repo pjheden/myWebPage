@@ -1,6 +1,9 @@
 <template>
   <div class="container">
     <div class="colContainer">
+      <img :src="introduction.image" :alt="introduction.name">
+    </div>
+    <div class="colContainer">
       <h1> {{introduction.name}} </h1>
       <h2> {{introduction.jobTitle}} </h2>
       <h2> {{introduction.workPlace}} </h2>
@@ -41,32 +44,41 @@
     padding-left: 15px;
     padding-right: 15px;
     float: left;
-    width: 50%;
+    width: 33%;
     margin-left: 0%;
     right: auto;
     left: auto;
   }
 
+  .colContainer img {
+    border-radius: 20em;
+    height: 15em;
+    width: 15em;
+  }
+
   .colContainer h4 {
     max-width: 30em;
-
   }
 
   .linkButtons {
     width:100%;
     margin-top:2em;
     margin-bottom: 2em;
+    margin-left: 5em;
     max-width: none;
   }
 
   a {
-    margin: 5px;
+    float:left;
+    margin: 0 0.5em 0 0;
+    /*margin: 5px;
     margin-bottom: 2%;
+    */
     font-size: 1rem;
     color: white;
     padding: 1em;
     background: linear-gradient(to right,#56ccf2,#2f80ed);
-    border-radius: 5px;
+    border-radius: 1em;
     border: none;
     display: inline-block;
     text-decoration: none;
