@@ -19,7 +19,7 @@
     </form>
     <div>
       <h3>Email me!</h3>
-      <p>{{myEmail}}</p>
+      <p>{{contact.email}}</p>
     </div>
   </div>
 </template>
@@ -27,12 +27,14 @@
 <script >
   export default {
     name: 'Contact',
+    props: {
+      contact: Object
+    },
     data () {
       return {
         name: '',
         email: '',
-        message: '',
-        myEmail: 'julianheden@gmail.com'
+        message: ''
       }
     },
     methods: {

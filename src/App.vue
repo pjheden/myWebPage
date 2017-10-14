@@ -2,10 +2,10 @@
   <div id="app">
     <!-- <router-view></router-view> -->
     <!-- <HeaderNav :items="items"></HeaderNav> -->
-    <Slideshow :projects="projects"></Slideshow>
-    <Home></Home>
-    <ProjectList :projects="projects"></ProjectList>
-    <Contact id = "aaa"></Contact>
+    <Slideshow :projects="data.projects"></Slideshow>
+    <Home :contact="data.contactData" :introduction="data.introduce"></Home>
+    <ProjectList :projects="data.projects"></ProjectList>
+    <Contact :contact="data.contactData"></Contact>
   </div>
 </template>
 
@@ -15,6 +15,8 @@ import Slideshow from '@/components/Slideshow'
 import Home from '@/components/Home'
 import ProjectList from '@/components/ProjectList'
 import Contact from '@/components/Contact'
+
+import ResumeData from '@/data'
 
 export default {
   name: 'app',
@@ -26,6 +28,7 @@ export default {
   },
   data () {
     return {
+      data: ResumeData,
       items: [
         {
           href: '/',
@@ -42,24 +45,6 @@ export default {
           text: 'Contact',
           id: 'contactItem'
         }
-      ],
-      projects: [{
-        title: 'Last Ship Standing',
-        image: 'pirateship',
-        description: 'A js game'
-      }, {
-        title: 'Engineer Your Future',
-        image: 'Education Circle',
-        description: 'A education tool for deciding your future'
-      }, {
-        title: 'Kiwi swiper',
-        image: 'neuralNet',
-        description: 'A tool based on neural network technology to learn and adapt..'
-      }, {
-        title: 'Checkers AI',
-        image: 'checkers',
-        description: 'An AI that is an expert in checkers'
-      }
       ]
     }
   }
