@@ -14,8 +14,8 @@
     </div>
     <div class="colContainer linkButtons">
       <a target="_blank" :href="contact.github">GitHub</a>
-      <a target="_blank" :href="contact.linkedin">LinkedIn</a>
       <a :href="contact.mailto">{{contact.email}}</a>
+      <a target="_blank" :href="contact.linkedin">LinkedIn</a>
     </div>
   </div>
 </template>
@@ -35,7 +35,8 @@
   .container {
     width:100%;
     padding-top: 6em;
-    padding-bottom:20em;
+    padding-bottom:22em;
+    background: #333333;
   }
 
   .colContainer {
@@ -64,7 +65,7 @@
     width:100%;
     margin-top:2em;
     margin-bottom: 2em;
-    margin-left: 5em;
+    margin-left: 7em;
     max-width: none;
   }
 
@@ -74,7 +75,7 @@
     /*margin: 5px;
     margin-bottom: 2%;
     */
-    font-size: 1rem;
+    font-size: 1em;
     color: white;
     padding: 1em;
     background: linear-gradient(to right,#56ccf2,#2f80ed);
@@ -86,9 +87,25 @@
   	-moz-transition: all ease 0.8s;
   	 transition: all ease 0.8s;
   }
+  a:nth-child(4n+1) {
+    background:linear-gradient(to right,#2f80ed,#56ccf2);
+  }
+  a:nth-child(4n+2) {
+    background:linear-gradient(to right,#56ccf2,#96c93d);
+  }
+  a:nth-child(4n+3) {
+    background:linear-gradient(to right,#96c93d,#e8d139);
+  }
+  a:nth-child(4n+0) {
+    background:linear-gradient(to right,#e8d139,#ffa971);
+  }
 
-a:hover{
-  box-shadow: inset 0 0 0 100px #56ccf9;
-}
+  a:hover{
+    box-shadow: inset 0 0 0 100px #56ccf9;
+  }
+
+  h1, h2, h3, h4 {
+    color: white;
+  }
 
 </style>

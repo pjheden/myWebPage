@@ -1,5 +1,5 @@
 <template >
-  <div>
+  <div id='navDiv'>
     <nav>
         <ul>
           <li class = "leftNav" >
@@ -18,6 +18,13 @@
 </template>
 
 <script >
+  function changeCss () {
+    var bodyElement = document.querySelector('#navDiv')
+    this.scrollY < 300 ? bodyElement.style['background-color'] = 'transparent' : bodyElement.style['background-color'] = '#333333'
+  }
+
+  window.addEventListener('scroll', changeCss, false)
+
   export default {
     name: 'HeaderNav',
     props: {
@@ -34,6 +41,13 @@
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
+    background-color: transparent;
+    -webkit-transition: all ease 0.8s;
+    -moz-transition: all ease 0.8s;
+     transition: all ease 0.8s;
+  }
+
+  div:before {
   }
 
   ul {
@@ -41,7 +55,7 @@
       margin: 0;
       padding: 0;
       overflow: hidden;
-      background-color: #333333;
+
   }
 
   li {
