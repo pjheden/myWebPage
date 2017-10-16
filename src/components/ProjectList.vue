@@ -89,10 +89,6 @@
 
   }
 
-  /*li:nth-child(odd) {
-    background: #EFEEEE;
-  }*/
-
   li:nth-child(6n+1) {
     background:linear-gradient(to right,#2f80ed,#56ccf2);
   }
@@ -107,6 +103,9 @@
   }
   li:nth-child(6n+5) {
     background:linear-gradient(to right,#ffa971,#d16016);
+  }
+  li:nth-child(6n+0) {
+    background:linear-gradient(to right,#d16016,#d116ca);
   }
 
 

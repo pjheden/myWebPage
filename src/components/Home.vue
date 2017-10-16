@@ -88,17 +88,15 @@
   	 transition: all ease 0.8s;
   }
   a:nth-child(4n+1) {
-    background:linear-gradient(to right,#2f80ed,#56ccf2);
+    background:linear-gradient(to right,#2f80ed,#96c93d);
   }
   a:nth-child(4n+2) {
-    background:linear-gradient(to right,#56ccf2,#96c93d);
+    background:linear-gradient(to right,#96c93d,#ffa971);
   }
   a:nth-child(4n+3) {
-    background:linear-gradient(to right,#96c93d,#e8d139);
+    background:linear-gradient(to right,#ffa971,#d116ca);
   }
-  a:nth-child(4n+0) {
-    background:linear-gradient(to right,#e8d139,#ffa971);
-  }
+
 
   a:hover{
     box-shadow: inset 0 0 0 100px #56ccf9;

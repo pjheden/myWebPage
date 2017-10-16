@@ -49,7 +49,6 @@ const educations = [
 const projects = [
   {
     title: 'Last Ship Standing',
-    meta: 'Propulsion Engineer',
     description: `Challenge your friends and declare the captain of the
     blue seas!`,
     url: 'https://people.kth.se/~pjheden/LastShipStanding/index.html',
@@ -72,18 +71,23 @@ const projects = [
 
   },
   {
-    title: 'Cactus swiper',
-    meta: 'Propulsion Engineer',
+    title: 'Cactus Swiper',
     description: 'A Nerual Network based classifier',
+    url: '',
     image: 'todo'
 
   },
   {
     title: 'Checkers AI',
-    meta: 'Propulsion Engineer',
     description: 'An AI that is an expert in checkers',
+    url: '',
     image: 'todo'
-
+  },
+  {
+    title: 'Dark Chess',
+    description: 'Play chess in the dark, with imperfect information',
+    url: '',
+    image: 'todo'
   }
 ]
 

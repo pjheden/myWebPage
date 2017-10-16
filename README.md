@@ -40,11 +40,8 @@ My most typical language in projects, Y axis - Coding language, X axis - magnitu
 What fields I do most projects in(app, deep learning), Y axis - Work category, X axis - magnitude
 
 Update contact section. perhaps unneeded?
+  -Change to overlay? Change site?
 
 Add text about me on Home component
 
-Improve header animation, can it go from top to bottom?
-
 Add scrollTo in header component
-
-Add tooltip to header

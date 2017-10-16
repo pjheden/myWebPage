@@ -63,9 +63,9 @@
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     background-color: transparent;
-    -webkit-transition: all linear 0.8s;
-    -moz-transition: all linear 0.8s;
-     transition: all linear 0.8s;
+    -webkit-transition: all ease-out 2s;
+    -moz-transition: all ease-out 2s;
+     transition: all ease-out 2s;
   }
 
   div:before {
