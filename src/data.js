@@ -52,34 +52,34 @@ const projects = [
     meta: 'Propulsion Engineer',
     description: 'A js game',
     url: 'https://people.kth.se/~pjheden/LastShipStanding/index.html',
-    image: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=firstimage&w=900&h=900'
+    image: 'lastshipstanding'
   },
   {
     title: 'Engineer Your Future',
     description: 'A education tool for deciding your future',
     url: 'https://people.kth.se/~pjheden/engineer-your-future/index.html',
-    image: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=firstimage&w=900&h=900'
+    image: 'engineer'
 
   },
   {
     title: 'White Men Came',
     description: 'Mobile Android Game',
     url: 'https://play.google.com/store/apps/details?id=com.JuliansCompany.JuliansGame',
-    image: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=firstimage&w=900&h=900'
+    image: 'whitemencame'
 
   },
   {
-    title: 'Kiwi swiper',
+    title: 'Cactus swiper',
     meta: 'Propulsion Engineer',
     description: 'A Nerual Network based classifier',
-    image: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=firstimage&w=900&h=900'
+    image: 'todo'
 
   },
   {
     title: 'Checkers AI',
     meta: 'Propulsion Engineer',
     description: 'An AI that is an expert in checkers',
-    image: 'http://placeholdit.imgix.net/~text?txtsize=33&txt=firstimage&w=900&h=900'
+    image: 'todo'
 
   }
 ]

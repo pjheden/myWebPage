@@ -6,7 +6,7 @@
       <ul>
         <li v-for="project in projects" v-on:click="selectProject(project.url)">
           <div class="listContainer">
-            <img :src="project.image" :alt="project.title">
+            <img :src="getImgUrl(project.image)" :alt="project.title">
             <h4>{{project.title}}</h4>
             {{project.description}}
           </div>
@@ -29,6 +29,10 @@
       // Local project routing
       selectProject: function (url) {
         window.open(url, '_blank')
+      },
+      getImgUrl: function (pet) {
+        var images = require.context('../assets/', false, /\.png$/)
+        return images('./' + pet + '.png')
       }
     }
   }
