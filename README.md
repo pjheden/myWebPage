@@ -43,8 +43,6 @@ Update contact section. perhaps unneeded?
 
 Add text about me on Home component
 
-Add icons to header component
-
 Improve header animation, can it go from top to bottom?
 
 Add scrollTo in header component

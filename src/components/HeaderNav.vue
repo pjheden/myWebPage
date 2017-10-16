@@ -12,7 +12,8 @@
           </li>
           <li
             v-for="(item, index) in items">
-            <a href="#"> {{item.text}} </a>
+            <a><icon :name="item.icon" scale="2"></icon></a>
+            <!-- <a href="#"> {{item.text}} </a> -->
             <!-- <router-link :to="item.href">{{item.text}}</router-link> -->
           </li>
         </ul>
@@ -22,7 +23,10 @@
 
 <script >
   import BinaryClouds from './BinaryClouds'
-
+  import 'vue-awesome/icons/home'
+  import 'vue-awesome/icons/briefcase'
+  import 'vue-awesome/icons/connectdevelop'
+  import Icon from 'vue-awesome/components/Icon'
   // Add listener to scrollwheel for transparency animation
   function changeCss () {
     var bodyElement = document.querySelector('#navDiv')
@@ -35,7 +39,8 @@
   export default {
     name: 'HeaderNav',
     components: {
-      BinaryClouds
+      BinaryClouds,
+      Icon
     },
     props: {
       items: Array
@@ -45,6 +50,10 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped >
+
+  .fa-icon {
+    color: white;
+  }
 
   div {
     z-index: 1000;
@@ -66,6 +75,7 @@
       margin: 0;
       padding: 0;
       overflow: hidden;
+      height: 3.9em;
 
   }
 
@@ -77,7 +87,7 @@
       display: block;
       color: white;
       text-align: center;
-      padding: 1.50em 2em;
+      padding: 1em 2em;
       text-decoration: none;
   }
 

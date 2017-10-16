@@ -10,12 +10,14 @@
 </template>
 
 <script>
+// Import components
 import HeaderNav from '@/components/HeaderNav'
-// import Slideshow from '@/components/Slideshow'
+// Import Slideshow from '@/components/Slideshow'
 import Home from '@/components/Home'
 import ProjectList from '@/components/ProjectList'
 import Contact from '@/components/Contact'
 
+// Import data
 import ResumeData from '@/data'
 
 export default {
@@ -33,17 +35,20 @@ export default {
         {
           href: '/',
           text: 'Home',
-          id: 'homeItem'
+          id: 'homeItem',
+          icon: 'home' // Remember to import
         },
         {
           href: '/projects',
           text: 'Projects',
-          id: 'projectItem'
+          id: 'projectItem',
+          icon: 'briefcase' // Remember to import
         },
         {
           href: '/contact',
           text: 'Contact',
-          id: 'contactItem'
+          id: 'contactItem',
+          icon: 'connectdevelop' // Remember to import
         }
       ]
     }
