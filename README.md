@@ -46,3 +46,5 @@ Add text about me on Home component
 Improve header animation, can it go from top to bottom?
 
 Add scrollTo in header component
+
+Add tooltip to header

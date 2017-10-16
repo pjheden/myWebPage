@@ -12,7 +12,7 @@
           </li>
           <li
             v-for="(item, index) in items">
-            <a><icon :name="item.icon" scale="2"></icon></a>
+            <a v-tooltip.bottom="item.text"><icon :name="item.icon" scale="2"></icon></a>
             <!-- <a href="#"> {{item.text}} </a> -->
             <!-- <router-link :to="item.href">{{item.text}}</router-link> -->
           </li>
@@ -23,6 +23,7 @@
 
 <script >
   import BinaryClouds from './BinaryClouds'
+  // Import icons
   import 'vue-awesome/icons/home'
   import 'vue-awesome/icons/briefcase'
   import 'vue-awesome/icons/connectdevelop'
@@ -104,5 +105,4 @@
   .clouds {
     padding-top: 0.70em;
   }
-
 </style>
