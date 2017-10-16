@@ -6,9 +6,11 @@
       <ul>
         <li v-for="project in projects" v-on:click="selectProject(project.url)">
           <div class="listContainer">
-            <img :src="getImgUrl(project.image)" :alt="project.title">
             <h4>{{project.title}}</h4>
-            {{project.description}}
+            <p>
+              {{project.description}}
+            </p>
+            <img :src="getImgUrl(project.image)" :alt="project.title">
           </div>
         </li>
       </ul>
@@ -41,8 +43,22 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped >
 
-  h1, h2 {
-    font - weight: normal;
+  h1, h2, h3, h4, p {
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    color: white;
+    text-align: left;
+  }
+  h1, h2, h3, h4 {
+    font-size: 1.3em;
+    text-transform: uppercase;
+    width: 100%;
+  }
+  p {
+    font-size: 1.2em;
+    width: 50%;
+    float: left;
+
+
   }
 
   ul {
@@ -77,30 +93,34 @@
     background: #EFEEEE;
   }*/
 
-  li:nth-child(4n+1) {
+  li:nth-child(6n+1) {
     background:linear-gradient(to right,#2f80ed,#56ccf2);
   }
-  li:nth-child(4n+2) {
+  li:nth-child(6n+2) {
     background:linear-gradient(to right,#56ccf2,#96c93d);
   }
-  li:nth-child(4n+3) {
+  li:nth-child(6n+3) {
     background:linear-gradient(to right,#96c93d,#e8d139);
   }
-  li:nth-child(4n+0) {
+  li:nth-child(6n+4) {
     background:linear-gradient(to right,#e8d139,#ffa971);
   }
+  li:nth-child(6n+5) {
+    background:linear-gradient(to right,#ffa971,#d16016);
+  }
+
 
   li:hover{
     /*Should put in some shadow instead, cards*/
-    box-shadow: 0em 0em 4em black;
-
+    box-shadow: 0em 0em 2em gray;
 
   }
 
   img {
-    float: left;
+    float: right;
     width: 10em;
     height: 10em;
+    border-radius:5em;
   }
 
 
