@@ -61,8 +61,8 @@
   }
 
   .container {
-    width: 30em;
-    height: 20em;
+    width: 7em;
+    height: 3em;
     position: relative;
     overflow: hidden;
 
@@ -76,9 +76,9 @@
     font-family: "Times New Roman", Times, serif;
     font-size: 0.55em;
 
-    top:0%;
+    top:15%;
     height: 47%;
-    right:35%;
+    right:135%;
   }
 
   li {

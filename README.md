@@ -39,9 +39,6 @@ perhaps, graphs.
 My most typical language in projects, Y axis - Coding language, X axis - magnitude
 What fields I do most projects in(app, deep learning), Y axis - Work category, X axis - magnitude
 
-Move cloud to header, next to name.
-Either improve animation, or remove it completely
-
 Update contact section. perhaps unneeded?
 
 Add text about me on Home component
@@ -49,3 +46,5 @@ Add text about me on Home component
 Add icons to header component
 
 Improve header animation, can it go from top to bottom?
+
+Add scrollTo in header component

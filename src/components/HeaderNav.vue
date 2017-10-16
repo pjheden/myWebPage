@@ -2,6 +2,9 @@
   <div id='navDiv'>
     <nav>
         <ul>
+          <li class = "leftNav clouds" >
+            <BinaryClouds></BinaryClouds>
+          </li>
           <li class = "leftNav" >
             <h1>
               Per Julian Hedén
@@ -18,6 +21,9 @@
 </template>
 
 <script >
+  import BinaryClouds from './BinaryClouds'
+
+  // Add listener to scrollwheel for transparency animation
   function changeCss () {
     var bodyElement = document.querySelector('#navDiv')
     this.scrollY < 300 ? bodyElement.style['background-color'] = 'transparent' : bodyElement.style['background-color'] = '#333333'
@@ -25,8 +31,12 @@
 
   window.addEventListener('scroll', changeCss, false)
 
+  // Export component
   export default {
     name: 'HeaderNav',
+    components: {
+      BinaryClouds
+    },
     props: {
       items: Array
     }
@@ -79,6 +89,10 @@
     float:left;
     color: white;
     padding-left: 5em;
+  }
+
+  .clouds {
+    padding-top: 0.70em;
   }
 
 </style>

@@ -4,7 +4,6 @@
     <HeaderNav :items="items"></HeaderNav>
     <!-- <Slideshow :projects="data.projects"></Slideshow> -->
     <Home :contact="data.contactData" :introduction="data.introduce"></Home>
-    <BinaryClouds></BinaryClouds>
     <ProjectList :projects="data.projects"></ProjectList>
     <Contact :contact="data.contactData"></Contact>
   </div>
@@ -13,7 +12,6 @@
 <script>
 import HeaderNav from '@/components/HeaderNav'
 // import Slideshow from '@/components/Slideshow'
-import BinaryClouds from '@/components/BinaryClouds'
 import Home from '@/components/Home'
 import ProjectList from '@/components/ProjectList'
 import Contact from '@/components/Contact'
@@ -24,7 +22,6 @@ export default {
   name: 'app',
   components: {
     HeaderNav,
-    BinaryClouds,
     Home,
     ProjectList,
     Contact
