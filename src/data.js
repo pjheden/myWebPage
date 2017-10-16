@@ -50,20 +50,23 @@ const projects = [
   {
     title: 'Last Ship Standing',
     meta: 'Propulsion Engineer',
-    description: 'A js game',
+    description: `Challenge your friends and declare the captain of the
+    blue seas!`,
     url: 'https://people.kth.se/~pjheden/LastShipStanding/index.html',
     image: 'lastshipstanding'
   },
   {
     title: 'Engineer Your Future',
-    description: 'A education tool for deciding your future',
+    description: `Engineer Your Future enables students at
+                  KTH to explore educations and their opportunities.`,
     url: 'https://people.kth.se/~pjheden/engineer-your-future/index.html',
     image: 'engineer'
 
   },
   {
     title: 'White Men Came',
-    description: 'Mobile Android Game',
+    description: `They came with guns and horses to take the holy lands
+                  from the indians. Big Eagle was their last hope.`,
     url: 'https://play.google.com/store/apps/details?id=com.JuliansCompany.JuliansGame',
     image: 'whitemencame'
 
