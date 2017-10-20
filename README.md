@@ -34,6 +34,10 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 ProjectsMap and ProjectCircle is currently unusued,
 remove or fix
 
+Add resumé download
+
+Show skills and/or experiences on page?
+
 Add some overview of my projects, keywords and what fields they are in
 perhaps, graphs.
 My most typical language in projects, Y axis - Coding language, X axis - magnitude
