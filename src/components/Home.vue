@@ -35,8 +35,8 @@
   .container {
     width:100%;
     padding-top: 6em;
-    padding-bottom:22em;
     background: #333333;
+    overflow: hidden;
   }
 
   .colContainer {
@@ -65,7 +65,7 @@
     width:100%;
     margin-top:2em;
     margin-bottom: 2em;
-    margin-left: 7em;
+    padding-left: 7em;
     max-width: none;
   }
 

@@ -7,8 +7,6 @@ const introduce = {
   summary: 'This is a summary of my personal strengths followed by what I am seeking, 1-2 lines.'
 }
 
-// TMP Unusued
-
 const experiences = [
   {
     workAt: 'Eduro',
@@ -23,8 +21,6 @@ const experiences = [
     description: 'Responsibilities included: performing a variety of engineering work in designing, constructing, and testing aircraft, missiles, and spacecraft.'
   }
 ]
-
-// TMP Unusued
 
 const educations = [
   {
@@ -42,7 +38,8 @@ const educations = [
   {
     educatedAt: 'National Taiwan University',
     title: 'Computer Science',
-    duration: 'Exchange Semester'
+    duration: 'Exchange Semester',
+    description: 'CS description'
   }
 ]
 

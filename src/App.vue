@@ -4,6 +4,7 @@
     <HeaderNav :items="items"></HeaderNav>
     <!-- <Slideshow :projects="data.projects"></Slideshow> -->
     <Home :contact="data.contactData" :introduction="data.introduce"></Home>
+    <!-- <Experience :experience="data.experiences" :education="data.educations"></Experience> -->
     <ProjectList :projects="data.projects"></ProjectList>
     <Contact :contact="data.contactData"></Contact>
   </div>
@@ -14,6 +15,7 @@
 import HeaderNav from '@/components/HeaderNav'
 // Import Slideshow from '@/components/Slideshow'
 import Home from '@/components/Home'
+import Experience from '@/components/Experience'
 import ProjectList from '@/components/ProjectList'
 import Contact from '@/components/Contact'
 
@@ -25,6 +27,7 @@ export default {
   components: {
     HeaderNav,
     Home,
+    Experience,
     ProjectList,
     Contact
   },
@@ -63,8 +66,17 @@ html,body
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
 }
+
+ /* Ghost debug*/
+/*
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
+*/
+
 
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
