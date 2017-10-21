@@ -68,16 +68,12 @@
      transition: all ease-out 2s;
   }
 
-  div:before {
-  }
-
   ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      height: 3.9em;
-
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 3.9em;
   }
 
   li {
@@ -88,7 +84,11 @@
       display: block;
       color: white;
       text-align: center;
-      padding: 1em 2em;
+      padding-right: 2em;
+      padding-left: 2em;
+      padding-top: 1em;
+      padding-bottom: 1em;
+      margin-right: 2em;
       text-decoration: none;
   }
 

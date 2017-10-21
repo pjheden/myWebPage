@@ -57,29 +57,24 @@
     font-size: 1.2em;
     width: 50%;
     float: left;
-
-
   }
 
   ul {
-    list - style - type: none;
     list-style-type: none;
     display: table;
-    padding: 1em 0em 5em 5em;
   }
 
   li {
-    height: 18em;
-    width:  30em;
+    height: 12%;
+    width:  30%;
     padding: 1em 3em 1em 3em;
-    margin: 1em 3em 1em 3em;
+    margin-left: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
     display: inline - block;
     border-radius: 1em;
     float: left;
-    right: auto;
-    left: auto;
     box-sizing: border-box;
-    min-height: 1px;
     cursor: pointer;
 
     box-shadow: 0 0 1px transparent;
