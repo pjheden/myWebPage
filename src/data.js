@@ -1,10 +1,11 @@
 const introduce = {
   name: 'PER JULIAN HEDÉN',
   image: 'https://media-exp1.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAUMAAAAJDZiNjJjN2I0LTM1N2QtNGQxNS04NTdjLTkzNGMwMzAyMzg0OA.jpg',
-  jobTitle: 'Computer Science student, Full-Stack Developer',
+  jobTitle: 'Devoloper, CS student',
   workPlace: 'Royale Institute of Technology, KTH',
   location: 'Stockholm, SE',
-  summary: 'This is a summary of my personal strengths followed by what I am seeking, 1-2 lines.'
+  summary: `I am a driven devoloper in the making, who is curious about most IT
+  related things, loves new technology and currently focused on AI.`
 }
 
 const experiences = [

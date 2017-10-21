@@ -3,14 +3,14 @@
     <div class="colContainer">
       <img :src="introduction.image" :alt="introduction.name">
     </div>
-    <div class="colContainer">
+    <div class="colContainer personDetails">
       <h1> {{introduction.name}} </h1>
       <h2> {{introduction.jobTitle}} </h2>
-      <h2> {{introduction.workPlace}} </h2>
+      <h3> {{introduction.workPlace}} </h3>
       <h3> {{introduction.location}} </h3>
     </div>
-    <div  class="colContainer">
-      <h4> {{introduction.summary}}</h4>
+    <div  class="colContainer personText">
+      <h3> {{introduction.summary}}</h3>
     </div>
     <div class="colContainer linkButtons">
       <a target="_blank" :href="contact.github">GitHub</a>
@@ -69,6 +69,14 @@
     max-width: none;
   }
 
+  .personDetails {
+    margin-top: 2em;
+    width: 30%;
+  }
+  .personText {
+    margin-top: 5em;
+    width: 30%;
+  }
   a {
     float:left;
     margin: 0 0.5em 0 0;

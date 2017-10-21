@@ -2,8 +2,8 @@
   <div id="app">
     <!-- <router-view></router-view> -->
     <HeaderNav :items="items"></HeaderNav>
-    <!-- <Slideshow :projects="data.projects"></Slideshow> -->
     <Home :contact="data.contactData" :introduction="data.introduce"></Home>
+    <!-- <Slideshow :projects="data.projects"></Slideshow> -->
     <!-- <Experience :experience="data.experiences" :education="data.educations"></Experience> -->
     <ProjectList :projects="data.projects"></ProjectList>
     <Contact :contact="data.contactData"></Contact>
@@ -13,7 +13,6 @@
 <script>
 // Import components
 import HeaderNav from '@/components/HeaderNav'
-// Import Slideshow from '@/components/Slideshow'
 import Home from '@/components/Home'
 import Experience from '@/components/Experience'
 import ProjectList from '@/components/ProjectList'
@@ -76,7 +75,6 @@ html,body
   outline: solid #f00 1px !important;
 }
 */
-
 
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;

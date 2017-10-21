@@ -90,6 +90,7 @@
       padding-bottom: 1em;
       margin-right: 2em;
       text-decoration: none;
+      cursor: pointer;
   }
 
   li a:hover {

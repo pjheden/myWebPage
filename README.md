@@ -36,16 +36,13 @@ remove or fix
 
 Add resumé download
 
+Add email text control
+
 Show skills and/or experiences on page?
 
 Add some overview of my projects, keywords and what fields they are in
 perhaps, graphs.
 My most typical language in projects, Y axis - Coding language, X axis - magnitude
 What fields I do most projects in(app, deep learning), Y axis - Work category, X axis - magnitude
-
-Update contact section. perhaps unneeded?
-  -Change to overlay? Change site?
-
-Add text about me on Home component
 
 Add scrollTo in header component
