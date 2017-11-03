@@ -132,8 +132,8 @@
   .emailContainer {
     margin: 2em auto;
     margin-top: 5em;
-    width: 15em;
-    height: 7em;
+    width: 20%;
+    height: 7%;
     color: #f2f2f2;
     border: 0.25em rgba(230, 217, 217, 0.5) solid;
     border-radius: 3em;

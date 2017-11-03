@@ -117,16 +117,23 @@
     border-radius:5em;
   }
 
-  /* CSS for devices with viewing area smaller than 1080px */
-  @media screen and (max-width: 1080px) {
+  /* CSS for devices with viewing area smaller than 1700px */
+  @media screen and (max-width: 1700px) {
     ul {
       width: 60%;
       margin: auto;
       padding: 1em;
     }
     li {
+      min-height: 20em;
       width: 100%;
       margin: 1em auto;
+    }
+    h1, h2, h3, h4 {
+      font-size: 1.8em;
+    }
+    p {
+      font-size: 1.7em;
     }
 
   }

@@ -83,7 +83,7 @@
     /*margin: 5px;
     margin-bottom: 2%;
     */
-    font-size: 1em;
+    /*font-size: 1em;*/
     color: white;
     padding: 1em;
     background: linear-gradient(to right,#56ccf2,#2f80ed);
