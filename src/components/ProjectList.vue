@@ -117,10 +117,16 @@
     border-radius:5em;
   }
 
-  /* CSS for devices with viewing area smaller than 600px */
-  @media screen and (max-width: 600px) {
-    .class {
-      background: #000;
+  /* CSS for devices with viewing area smaller than 1080px */
+  @media screen and (max-width: 1080px) {
+    ul {
+      width: 60%;
+      margin: auto;
+      padding: 1em;
+    }
+    li {
+      width: 100%;
+      margin: 1em auto;
     }
 
   }
