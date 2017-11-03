@@ -1,7 +1,11 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import scroller from './scroller'
+
+// Import tooltip
+import Tooltip from 'vue-directive-tooltip'
+import 'vue-directive-tooltip/css/index.css'
+Vue.use(Tooltip)
 
 Vue.config.productionTip = false
 
@@ -9,6 +13,5 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   router,
-  scroller,
   render: h => h(App)
 })
