@@ -87,5 +87,13 @@
     margin-left: 1em;
   }
 
+  /* CSS for devices with viewing area smaller than 600px */
+  @media screen and (max-width: 600px) {
+    .class {
+      background: #000;
+    }
+
+  }
+
 
 </style>
