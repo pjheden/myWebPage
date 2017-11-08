@@ -4,7 +4,7 @@
     <hr> -->
     <div>
       <ul>
-        <li v-for="project in projects" v-on:click="selectProject(project.url)">
+        <li v-for="project in projects" v-on:click="selectProject(project.url, project.title)">
           <div class="listContainer">
             <h4>{{project.title}}</h4>
             <p>
@@ -29,8 +29,14 @@
       // TODO: Change the projects list to contain a bool, if its local or external routing
       // and change the function based on that. so window.open if external, and router.push for internal
       // Local project routing
-      selectProject: function (url) {
+      selectProject: function (url, title) {
         window.open(url, '_blank')
+        this.$ga.event({
+          eventCategory: 'Projects',
+          eventAction: 'click',
+          eventLabel: '' + title,
+          eventValue: 123
+        })
       },
       getImgUrl: function (pet) {
         var images = require.context('../assets/', false, /\.png$/)

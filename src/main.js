@@ -7,6 +7,13 @@ import Tooltip from 'vue-directive-tooltip'
 import 'vue-directive-tooltip/css/index.css'
 Vue.use(Tooltip)
 
+// Import analytics
+import VueAnalytics from 'vue-analytics'
+Vue.use(VueAnalytics, {
+  id: 'UA-109380474-1',
+  router // Enables page auto tracking
+})
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
