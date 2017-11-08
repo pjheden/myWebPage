@@ -91,7 +91,7 @@ const projects = [
 
 const contactData = {
   github: 'https://github.com/pjheden',
-  linkedin: 'https://www.linkedin.com/in/julian-hed%C3%A9n-b7b2ba110/',
+  linkedin: 'https://www.linkedin.com/in/julian-heden',
   email: 'julianheden@gmail.com',
   mailto: 'mailto:julianheden@gmail.com'
 }

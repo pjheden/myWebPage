@@ -12,7 +12,7 @@
           </li>
           <li
             v-for="(item, index) in items">
-            <a v-tooltip.bottom="item.text"><icon :name="item.icon" scale="2"></icon></a>
+            <a v-tooltip.bottom="item.text" :href="'#'+item.text" v-smooth-scroll="{ duration: 750, offset: -100 }"><icon :name="item.icon" scale="2"></icon></a>
             <!-- <a href="#"> {{item.text}} </a> -->
             <!-- <router-link :to="item.href">{{item.text}}</router-link> -->
           </li>

@@ -14,6 +14,10 @@ Vue.use(VueAnalytics, {
   router // Enables page auto tracking
 })
 
+// Import smooth scroll
+import vueSmoothScroll from 'vue-smooth-scroll'
+Vue.use(vueSmoothScroll)
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

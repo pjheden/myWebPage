@@ -20,7 +20,8 @@
     "vue-directive-tooltip": "^1.4.0",
     "vue-easy-slider": "^3.1.5",
     "vue-router": "^2.7.0",
-    "vue-scroll-to": "^2.0.1"
+    "vue-scroll-to": "^2.0.1",
+    "vue-smooth-scroll": "^1.0.13"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div id="Home" class="container">
     <div class="colContainer">
       <img :src="introduction.image" :alt="introduction.name">
     </div>
