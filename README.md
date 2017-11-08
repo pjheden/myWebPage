@@ -46,3 +46,5 @@ My most typical language in projects, Y axis - Coding language, X axis - magnitu
 What fields I do most projects in(app, deep learning), Y axis - Work category, X axis - magnitude
 
 Add scrollTo in header component
+
+google analytics
