@@ -34,6 +34,8 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 ProjectsMap and ProjectCircle is currently unusued,
 remove or fix
 
+Fix css for other screens (than my home pc)
+
 Add resumé download
 
 Add email text control
@@ -44,5 +46,3 @@ Add some overview of my projects, keywords and what fields they are in
 perhaps, graphs.
 My most typical language in projects, Y axis - Coding language, X axis - magnitude
 What fields I do most projects in(app, deep learning), Y axis - Work category, X axis - magnitude
-
-Add scrollTo in header component
