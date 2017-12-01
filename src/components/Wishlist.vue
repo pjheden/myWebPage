@@ -102,15 +102,18 @@ p {
 
 ul {
   list-style-type: none;
+  width: 60%;
+  height: 100%;
+  margin: auto;
+  padding: 1em;
 }
 
 li {
-  height: 30%;
-  width:  80%;
+  min-height: 20em;
+  height: 22em;
+  width: 100%;
+  margin: 1em auto;
   padding: 1em 3em 1em 3em;
-  margin-left: 2%;
-  margin-top: 1%;
-  margin-bottom: 1%;
   display: inline - block;
   border-radius: 1em;
   border-style: solid;
