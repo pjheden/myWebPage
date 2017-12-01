@@ -31,11 +31,13 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 
 ## TODO
 
+-------Fixes-------
 ProjectsMap and ProjectCircle is currently unusued,
 remove or fix
 
 Fix css for other screens (than my home pc)
 
+------New Content-
 Add resumé download
 
 Add email text control

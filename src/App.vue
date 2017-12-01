@@ -1,59 +1,14 @@
 <template>
   <div id="app">
-    <!-- <router-view></router-view> -->
-    <HeaderNav :items="items"></HeaderNav>
-    <Home :contact="data.contactData" :introduction="data.introduce"></Home>
-    <!-- <Slideshow :projects="data.projects"></Slideshow> -->
-    <!-- <Experience :experience="data.experiences" :education="data.educations"></Experience> -->
-    <ProjectList :projects="data.projects"></ProjectList>
-    <Contact :contact="data.contactData"></Contact>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-// Import components
-import HeaderNav from '@/components/HeaderNav'
-import Home from '@/components/Home'
-import Experience from '@/components/Experience'
-import ProjectList from '@/components/ProjectList'
-import Contact from '@/components/Contact'
-
-// Import data
-import ResumeData from '@/data'
 
 export default {
   name: 'app',
   components: {
-    HeaderNav,
-    Home,
-    Experience,
-    ProjectList,
-    Contact
-  },
-  data () {
-    return {
-      data: ResumeData,
-      items: [
-        {
-          href: '/',
-          text: 'Home',
-          id: 'homeItem',
-          icon: 'home' // Remember to import
-        },
-        {
-          href: '/projects',
-          text: 'Projects',
-          id: 'projectItem',
-          icon: 'briefcase' // Remember to import
-        },
-        {
-          href: '/contact',
-          text: 'Contact',
-          id: 'contactItem',
-          icon: 'connectdevelop' // Remember to import
-        }
-      ]
-    }
   }
 }
 </script>

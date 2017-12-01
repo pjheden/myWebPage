@@ -1,10 +1,12 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from '@/components/Home'
+// import Home from '@/components/Home'
 import ProjectList from '@/components/ProjectList'
 import Contact from '@/components/Contact'
 import ProjectsMap from '@/components/ProjectsMap'
 import Checkers from '@/components/Checkers'
+import Wishlist from '@/components/Wishlist'
+import Personalpage from '@/components/Personalpage'
 
 Vue.use(Router)
 
@@ -13,7 +15,7 @@ export default new Router({
     {
       path: '/',
       name: 'Home',
-      component: Home
+      component: Personalpage
     },
     {
       path: '/projects',
@@ -34,6 +36,11 @@ export default new Router({
       path: '/checkers',
       name: 'Checkers',
       component: Checkers
+    },
+    {
+      path: '/Wishlist',
+      name: 'Wishlist',
+      component: Wishlist
     }
   ]
 })
