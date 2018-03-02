@@ -2,6 +2,11 @@
 
 > A Vue.js project
 
+To deploy:
+1. Run npm run build
+2. Connect with FileZilla
+3. Copy over everything in /dist to FileZilla's /www
+
 ## Build Setup
 
 ``` bash

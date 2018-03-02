@@ -31,6 +31,24 @@
       return {
         wishes: [
           {
+            title: 'Kaffepress',
+            description: 'Är supernöjd med min italienska espressokokare, men nu önskar jag mig också en kaffepress. Lite variation! Optimal storlek är 1-2 koppar',
+            url: 'https://www.kitchentime.se/sv/p/kaffepressare-rostfri-glas-kopparplaterad-rymd-6-dl',
+            image: 'http://www.threklam.se/wp-content/uploads/2015/08/Leif-Mannerstr%C3%B6ms-1360-Kaffepress-Koppar-THreklam.se_.png'
+          },
+          {
+            title: 'Ölbryggning',
+            description: 'Har länge velat prova att bryga min egen öl. Därför önskar jag mig vad som helst i detta området!',
+            url: 'http://shop.humle.se/',
+            image: 'http://images.rosendahl.dk/products/253/55/25355/v/25355/Large/gc-lglas-2-st-50-cl-grand-cru-460x460.png'
+          },
+          {
+            title: 'Roliga brädspel',
+            description: 'Fun fun fun',
+            url: 'https://www.listchallenges.com/92-best-board-games-of-all-time',
+            image: 'https://vignette.wikia.nocookie.net/thesettlersonline/images/1/11/B_fairytale_castle0_0.png/revision/latest?cb=20130719153309'
+          },
+          {
             title: 'Vattenflaska',
             description: 'En vattenflaska med samma funktionalitet som på bilden, behöver inte alls vara den modellen eller färgen.',
             url: 'http://www.pricerunner.se/pl/501-4062436/Camping-och-Friluftsliv/Camelbak-Eddy-Bottle-750ml-priser',

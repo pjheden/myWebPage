@@ -58,7 +58,6 @@ const projects = [
                   KTH to explore educations and their opportunities.`,
     url: 'https://people.kth.se/~pjheden/engineer-your-future/index.html',
     image: 'engineer'
-
   },
   {
     title: 'White Men Came',
@@ -66,14 +65,13 @@ const projects = [
                   from the indians. Big Eagle was their last hope.`,
     url: 'https://play.google.com/store/apps/details?id=com.JuliansCompany.JuliansGame',
     image: 'whitemencame'
-
   },
   {
-    title: 'Cactus Swiper',
-    description: 'A Nerual Network based classifier',
-    url: '',
-    image: 'todo'
-
+    title: 'Twitch Fixer',
+    description: `Chrome extension that alters the twitch
+     experience to your preference.`,
+    url: 'https://chrome.google.com/webstore/detail/twitch-fixer/ankgggjggmhohjheacjljklghjiafcab',
+    image: 'twitchfixer'
   },
   {
     title: 'Checkers AI',
