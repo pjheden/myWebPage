@@ -31,40 +31,40 @@
       return {
         wishes: [
           {
-            title: 'Kaffepress',
-            description: 'Är supernöjd med min italienska espressokokare, men nu önskar jag mig också en kaffepress. Lite variation! Optimal storlek är 1-2 koppar',
-            url: 'https://www.kitchentime.se/sv/p/kaffepressare-rostfri-glas-kopparplaterad-rymd-6-dl',
-            image: 'http://www.threklam.se/wp-content/uploads/2015/08/Leif-Mannerstr%C3%B6ms-1360-Kaffepress-Koppar-THreklam.se_.png'
+            title: 'Google Home',
+            description: 'Smart Home!',
+            url: 'https://www.prisjakt.nu/produkt.php?p=3934372',
+            image: 'http://cdn.shopify.com/s/files/1/0908/5452/products/Google_Home_1_Front_grande.png'
           },
           {
-            title: 'Ölbryggning',
-            description: 'Har länge velat prova att bryga min egen öl. Därför önskar jag mig vad som helst i detta området!',
-            url: 'http://shop.humle.se/',
-            image: 'http://images.rosendahl.dk/products/253/55/25355/v/25355/Large/gc-lglas-2-st-50-cl-grand-cru-460x460.png'
+            title: 'Tofflor',
+            description: 'Var tvungen att slänga mina gamla, och har varit frusen på fötterna i hela mars. Önskar mig några varma och sköna, som bara kommer användas inomhus.',
+            url: 'https://www.footway.se/shepherd-jessica-17237-00.html',
+            image: 'https://artimg.footway.com/01/172/17237-00/up/705/705/17237-00.png'
           },
           {
-            title: 'Roliga brädspel',
-            description: 'Fun fun fun',
-            url: 'https://www.listchallenges.com/92-best-board-games-of-all-time',
-            image: 'https://vignette.wikia.nocookie.net/thesettlersonline/images/1/11/B_fairytale_castle0_0.png/revision/latest?cb=20130719153309'
+            title: 'Factfulness av Hans Rosling',
+            description: 'Hans Roslings senaste/sista bok, svenska eller engelska.',
+            url: 'https://www.bokus.com/bok/9789127149946/factfulness-tio-knep-som-hjalper-dig-forsta-varlden/',
+            image: 'http://www.speakers.pl/media/pictures/profile/4502.png'
           },
           {
-            title: 'Vattenflaska',
-            description: 'En vattenflaska med samma funktionalitet som på bilden, behöver inte alls vara den modellen eller färgen.',
-            url: 'http://www.pricerunner.se/pl/501-4062436/Camping-och-Friluftsliv/Camelbak-Eddy-Bottle-750ml-priser',
-            image: 'https://images.pricerunner.com/product/400x400/1517617310/Camelbak-Eddy-Bottle-750ml.jpg'
+            title: 'Ljusterapilampa ',
+            description: 'Har blivit rekommenderat en sådan lamp ett bra tag nu, och tror det ska vara bra för en datornörd!',
+            url: 'https://konsumentmagasinet.se/ljusterapilampa-test/',
+            image: 'https://i.ebayimg.com/images/g/IfEAAOSwVqlaSKo4/s-l300.png'
           },
           {
-            title: 'Ryggsäck',
-            description: 'Med plats för laptop. Gillar stilen och kompaktheten till den på bilden.',
-            url: 'https://www.zalando.se/rains-ryggsaeck-black-ri051h001-q11.html',
-            image: 'https://mosaic01.ztat.net/vgs/media/pdp-gallery/RI/05/1H/00/1Q/11/RI051H001-Q11@10.jpg'
+            title: 'Smartwatch',
+            description: 'Har länge försökt hitta på en bra ursäkt för att köpa en Smartwatch, något användningsområde eller liknande. Har inte lyckats, men önskar mig en ändå. Det är rätt coolt. Jag måste göra lite research på vilka som är bra, och prova att dom passar armen. Återkommer!',
+            url: 'https://www.techradar.com/news/wearables/every-android-wear-smartwatch-in-the-world-today-1288283',
+            image: 'https://d30y9cdsu7xlg0.cloudfront.net/png/197364-200.png'
           },
           {
-            title: 'Bruna boots',
-            description: 'Bruna boots med snöre i liknande stil. Gärna för lätt höst/vår och lätt vinter.',
-            url: 'https://www.zalando.se/tommy-hilfiger-snoerstoevletter-dark-mustard-to112l000-o11.html',
-            image: 'https://mosaic01.ztat.net/vgs/media/pdp-gallery/TO/11/2L/00/0O/11/TO112L000-O11@12.jpg'
+            title: 'Nya bågar',
+            description: 'Det är dags att byta bågar. Ta mig ut på glasögon-shopping, med fashionråd.',
+            url: 'https://www.misterspex.se/',
+            image: 'https://media.fyndiq.se/product/3a/ca/91/872be72a7904542e16fe0b8cd1b1b15fe4/original.png'
           }
         ]
       }
