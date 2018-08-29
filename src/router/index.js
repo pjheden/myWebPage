@@ -5,6 +5,7 @@ import ProjectsMap from '@/components/ProjectsMap'
 import Checkers from '@/components/Checkers'
 import Wishlist from '@/components/Wishlist'
 import Personalpage from '@/components/Personalpage'
+import AutomaticWatering from '@/components/AutomaticWatering'
 
 Vue.use(Router)
 
@@ -17,6 +18,21 @@ export default new Router({
       component: Personalpage
     },
     {
+      path: '/automatic_watering',
+      name: 'AutomaticWatering',
+      component: AutomaticWatering
+    },
+    {
+      path: '/wishlist',
+      name: 'Wishlist',
+      component: Wishlist
+    },
+    {
+      path: '/Wishlist',
+      name: 'Wishlist',
+      component: Wishlist
+    },
+    {
       path: '/map',
       name: 'ProjectsMap',
       component: ProjectsMap
@@ -25,11 +41,6 @@ export default new Router({
       path: '/checkers',
       name: 'Checkers',
       component: Checkers
-    },
-    {
-      path: '/Wishlist',
-      name: 'Wishlist',
-      component: Wishlist
     },
     {
       path: '*',

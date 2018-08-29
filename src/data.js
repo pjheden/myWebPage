@@ -1,6 +1,6 @@
 const introduce = {
   name: 'PER JULIAN HEDÉN',
-  image: 'https://media-exp1.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAUMAAAAJDZiNjJjN2I0LTM1N2QtNGQxNS04NTdjLTkzNGMwMzAyMzg0OA.jpg',
+  image: 'me',
   jobTitle: 'Developer, CS student',
   workPlace: 'Royale Institute of Technology, KTH',
   location: 'Stockholm, SE',
@@ -74,8 +74,9 @@ const projects = [
     image: 'twitchfixer'
   },
   {
-    title: 'Checkers AI',
-    description: 'An AI that is an expert in checkers',
+    title: 'Automatic Watering System 2.0',
+    description: `Connecting a humidity sensor and a submerged pump to a
+    Raspberry Pi to automatically water my plants upon need.`,
     url: '',
     image: 'todo'
   },

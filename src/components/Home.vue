@@ -1,7 +1,7 @@
 <template>
   <div id="Home" class="container">
     <div class="colContainer">
-      <img :src="introduction.image" :alt="introduction.name">
+      <img :src="getImgUrl(introduction.image)" :alt="introduction.name">
     </div>
     <div class="colContainer personDetails">
       <h1> {{introduction.name}} </h1>
@@ -26,6 +26,12 @@
     props: {
       introduction: Object,
       contact: Object
+    },
+    methods: {
+      getImgUrl: function (pet) {
+        var images = require.context('../assets/', false, /\.png$/)
+        return images('./' + pet + '.png')
+      }
     }
   }
 </script>

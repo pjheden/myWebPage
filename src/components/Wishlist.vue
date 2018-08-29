@@ -31,12 +31,6 @@
       return {
         wishes: [
           {
-            title: 'Google Home',
-            description: 'Smart Home!',
-            url: 'https://www.prisjakt.nu/produkt.php?p=3934372',
-            image: 'http://cdn.shopify.com/s/files/1/0908/5452/products/Google_Home_1_Front_grande.png'
-          },
-          {
             title: 'Tofflor',
             description: 'Var tvungen att slänga mina gamla, och har varit frusen på fötterna i hela mars. Önskar mig några varma och sköna, som bara kommer användas inomhus.',
             url: 'https://www.footway.se/shepherd-jessica-17237-00.html',
@@ -55,16 +49,10 @@
             image: 'https://i.ebayimg.com/images/g/IfEAAOSwVqlaSKo4/s-l300.png'
           },
           {
-            title: 'Smartwatch',
-            description: 'Har länge försökt hitta på en bra ursäkt för att köpa en Smartwatch, något användningsområde eller liknande. Har inte lyckats, men önskar mig en ändå. Det är rätt coolt. Jag måste göra lite research på vilka som är bra, och prova att dom passar armen. Återkommer!',
-            url: 'https://www.techradar.com/news/wearables/every-android-wear-smartwatch-in-the-world-today-1288283',
-            image: 'https://d30y9cdsu7xlg0.cloudfront.net/png/197364-200.png'
-          },
-          {
-            title: 'Nya bågar',
-            description: 'Det är dags att byta bågar. Ta mig ut på glasögon-shopping, med fashionråd.',
-            url: 'https://www.misterspex.se/',
-            image: 'https://media.fyndiq.se/product/3a/ca/91/872be72a7904542e16fe0b8cd1b1b15fe4/original.png'
+            title: 'Artificial Intelligence and Games',
+            description: 'Mycket bra bok skriven av Georgios N. Yannakakis, Julian Togelius, Georgios N. Yannakakis',
+            url: 'https://www.adlibris.com/se/bok/artificial-intelligence-and-games-9783319635187',
+            image: 'http://gameaibook.org/wp-content/uploads/2018/01/cover-200x300.png'
           }
         ]
       }
