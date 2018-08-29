@@ -77,8 +77,8 @@ const projects = [
     title: 'Automatic Watering System 2.0',
     description: `Connecting a humidity sensor and a submerged pump to a
     Raspberry Pi to automatically water my plants upon need.`,
-    url: '',
-    image: 'todo'
+    url: 'https://www.julianheden.se/automatic_watering',
+    image: 'plant'
   },
   {
     title: 'Dark Chess',
