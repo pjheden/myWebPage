@@ -6,6 +6,7 @@ import Checkers from '@/components/Checkers'
 import Wishlist from '@/components/Wishlist'
 import Personalpage from '@/components/Personalpage'
 import AutomaticWatering from '@/components/AutomaticWatering'
+import DevBlog from '@/components/DevBlog'
 
 Vue.use(Router)
 
@@ -31,6 +32,16 @@ export default new Router({
       path: '/Wishlist',
       name: 'Wishlist',
       component: Wishlist
+    },
+    {
+      path: '/DevBlog',
+      name: 'DevBlog',
+      component: DevBlog
+    },
+    {
+      path: '/devblog',
+      name: 'DevBlog',
+      component: DevBlog
     },
     {
       path: '/map',
