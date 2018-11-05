@@ -46,6 +46,13 @@ const educations = [
 
 const projects = [
   {
+    title: 'ZeppelinARe',
+    description: `AR mobile game for android, where you blow on the screen to
+    create wind and control a Zeppelin.`,
+    url: 'https://runhem.github.io/AGI-P1-Web/',
+    image: 'zeppelinare'
+  },
+  {
     title: 'Last Ship Standing',
     description: `Challenge your friends and declare the captain of the
     blue seas!`,
@@ -79,12 +86,6 @@ const projects = [
     Raspberry Pi to automatically water my plants upon need.`,
     url: 'https://www.julianheden.se/automatic_watering',
     image: 'plant'
-  },
-  {
-    title: 'Dark Chess',
-    description: 'Play chess in the dark, with imperfect information',
-    url: '',
-    image: 'todo'
   }
 ]
 
