@@ -47,6 +47,63 @@
         And most importantly(!), we started discussing the name for the project..
       </p>
     </div>
+
+    <div class="container">
+      <hr />
+      <h4> Wheel Collider, 2018-11-10</h4>
+      <p>
+        Car physics. A central part of our game. It needs to feel good to drive our cars,
+        it has to be responsive and fun. Realisitc? Who cares!
+        <br />
+        How do I do this? Oh right, Unity has a built in component. Excellent! I should have known,
+        Unity always have a built in component for all your needs. A quick two hours and it's already done.
+        A initial implementation of course, refining can be a lifetime project. There are more variables
+        than i bother reading, but it already feels decent. Put some rotation on top of that (For turning and driving),
+        sometimes things just goes so fluently...
+      </p>
+    </div>
+
+    <div class="container">
+      <hr />
+      <h4> Speedy Gonzales, 2018-11-12</h4>
+      <p>
+        Thinks are happening in rapid development. Even though it seems like our team size
+        is constantly sinking (From 5 to practically 3.5), our progress is increasing.
+        It could be all the hours we are putting in, but it's hard not to. Suddenly the line between
+        school and hobbies are mighty thin.
+        <br />
+        Working in a team is great (sometimes). You don't have to do everything yourself. Wonderful.
+      </p>
+    </div>
+
+    <div class="container">
+      <hr />
+      <h4> Passing variables between Scenes, 2018-11-13</h4>
+      <p>
+        Players join and select cars in the Menu Scene, now let's just pass this
+        to our game scene and we are have the pipeline done. Shouldn't be hard right?
+        Well, it is. How can there not be a better solution for this?
+        <br />
+        My Google research tells me that there are two methods to do this,
+        none of which makes me sleep well at night.
+        The first one is to write your data to a file and read it again, no way!
+        The second is to create a static file (scary), fine. It's a quick fix,
+        but it hurts.
+      </p>
+    </div>
+
+    <div class="container">
+      <hr />
+      <h4> Oh god, What have I've done? 2018-11-14</h4>
+      <p>
+        Sound. Important factor of course. Often left for the very last sprint.
+        We discussed it early this time, and someone jokingly suggest I should
+        be our sound generator. I quickled agreed to this (as I've thought about it before),
+        but have I really thought about it? Well, I am not sure if I should laugh or cry.
+        Files are recorded and uploaded to Trello. We'll see
+      </p>
+    </div>
+
   </div>
 </template>
 
