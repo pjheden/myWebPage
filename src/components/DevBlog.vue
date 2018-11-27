@@ -96,12 +96,51 @@
       <hr />
       <h4> Oh god, What have I've done? 2018-11-14</h4>
       <p>
-        Sound. Important factor of course. Often left for the very last sprint.
-        We discussed it early this time, and someone jokingly suggest I should
+        Sound. An Important factor, to say the least. Often left for the very last sprint.
+        This time we discussed it early, and someone jokingly suggest I should
         be our sound generator. I quickled agreed to this (as I've thought about it before),
-        but have I really thought about it? Well, I am not sure if I should laugh or cry.
-        Files are recorded and uploaded to Trello. We'll see
+        but have I really thought it through? Well, as I am recording the sounds I am not sure if I should laugh or cry.
+        Files are recorded and uploaded to Trello. We'll see!
       </p>
+    </div>
+
+    <div class="container">
+      <hr />
+      <h4> In the land of the blind, the one-eyed man is king 2018-11-23</h4>
+      <p>
+        Turns out that it is hard to make things look pretty.
+        It's a skill rare amongst the computer science department. In our group,
+         it turns out that I am the most qualified for the job (and that is a first).
+        Trial and error is the name of the game,
+        I take inspiration from wherever I can find and try over and over again until it's acceptable.
+        Note, "acceptable" and not good.
+        I might have greater confidence in my artistic side after this project, we'll see!
+      </p>
+    </div>
+
+
+    <div class="container">
+      <hr />
+      <h4> Meeting, Coding, Preperation 2018-11-27</h4>
+      <p>
+        Adding new stuff is simple. It is the refining and fine tuning that takes time, and is a a lot less fun.
+        UI, driving, weapons and so on.
+        Minor bugs here and there. We are having an autumn cleaning before winter comes.
+        <br />
+        Oh, and we finally added some of the sounds today. Here is a preview:
+      </p>
+      <audio controls>
+        <source :src="getAudioUrl('collision3')" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+      <audio controls>
+        <source :src="getAudioUrl('intro')" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+      <audio controls>
+        <source :src="getAudioUrl('thrust')" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
     </div>
 
   </div>
@@ -109,7 +148,21 @@
 
 <script >
   export default {
-    name: 'DevBlog'
+    name: 'DevBlog',
+    methods: {
+      getImgUrl: function (pet) {
+        var images = require.context('../assets/', false, /\.png$/)
+        return images('./' + pet + '.png')
+      },
+      getAudioUrl: function (pet) {
+        var images = require.context('../assets/', false, /\.mp3/)
+        return images('./' + pet + '.mp3')
+      },
+      getVideoUrl: function (pet) {
+        var images = require.context('../assets/', false, /\.mp4$/)
+        return images('./' + pet + '.mp4')
+      }
+    }
   }
   // TODO create post vector somewhere, so i can add posts simple
 </script>
