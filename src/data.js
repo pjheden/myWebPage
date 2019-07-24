@@ -53,6 +53,14 @@ const projects = [
     image: 'zeppelinare'
   },
   {
+    title: 'Global Game Jam: Bear With Me!',
+    description: `Global Game Jam 2019, 48-hour hackaton.
+    Bear With Me is a Toy Story inspired arcade game, where you
+    race against the time to clean up the room`,
+    url: 'https://pjheden.github.io/bearwithme-gamejam-2019/',
+    image: 'bearwithme'
+  },
+  {
     title: 'Last Ship Standing',
     description: `Challenge your friends and declare the captain of the
     blue seas!`,
