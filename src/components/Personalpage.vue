@@ -2,7 +2,7 @@
   <div id="personal">
     <HeaderNav :items="items"></HeaderNav>
     <Home :contact="data.contactData" :introduction="data.introduce"></Home>
-    <ProjectList :projects="data.projects"></ProjectList>
+    <ProjectList></ProjectList>
     <Contact :contact="data.contactData"></Contact>
     <!-- <Slideshow :projects="data.projects"></Slideshow> -->
     <!-- <Experience :experience="data.experiences" :education="data.educations"></Experience> -->
