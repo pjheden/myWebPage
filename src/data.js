@@ -44,61 +44,6 @@ const educations = [
   }
 ]
 
-<<<<<<< HEAD
-=======
-const projects = [
-  {
-    title: 'ZeppelinARe',
-    description: `AR mobile game for android, where you blow on the screen to
-    create wind and control a Zeppelin.`,
-    url: 'https://runhem.github.io/AGI-P1-Web/',
-    image: 'zeppelinare'
-  },
-  {
-    title: 'Global Game Jam: Bear With Me!',
-    description: `Bear With Me is a Toy Story inspired arcade game
-    developed during a 48-hour hackaton.`,
-    url: 'https://pjheden.github.io/bearwithme-gamejam-2019/',
-    image: 'bearwithme'
-  },
-  {
-    title: 'Last Ship Standing',
-    description: `Challenge your friends and declare the captain of the
-    blue seas!`,
-    url: 'https://people.kth.se/~pjheden/LastShipStanding/index.html',
-    image: 'lastshipstanding'
-  },
-  {
-    title: 'Engineer Your Future',
-    description: `Engineer Your Future enables students at
-                  KTH to explore educations and their opportunities.`,
-    url: 'https://people.kth.se/~pjheden/engineer-your-future/index.html',
-    image: 'engineer'
-  },
-  {
-    title: 'White Men Came',
-    description: `They came with guns and horses to take the holy lands
-                  from the indians. Big Eagle was their last hope.`,
-    url: 'https://play.google.com/store/apps/details?id=com.JuliansCompany.JuliansGame',
-    image: 'whitemencame'
-  },
-  {
-    title: 'Twitch Fixer',
-    description: `Chrome extension that alters the twitch
-     experience to your preference.`,
-    url: 'https://chrome.google.com/webstore/detail/twitch-fixer/ankgggjggmhohjheacjljklghjiafcab',
-    image: 'twitchfixer'
-  },
-  {
-    title: 'Automatic Watering System 2.0',
-    description: `Connecting a humidity sensor and a submerged pump to a
-    Raspberry Pi to automatically water my plants upon need.`,
-    url: 'https://www.julianheden.se/automatic_watering',
-    image: 'plant'
-  }
-]
-
->>>>>>> 277d905711cb56a7ea16f4fd2f38c5f7c19e1f7a
 const contactData = {
   github: 'https://github.com/pjheden',
   linkedin: 'https://www.linkedin.com/in/julian-heden',
