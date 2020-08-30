@@ -1,10 +1,10 @@
 const introduce = {
   name: 'PER JULIAN HEDÉN',
   image: 'me',
-  jobTitle: 'Developer, CS student',
-  workPlace: 'Royale Institute of Technology, KTH',
+  jobTitle: 'Associate Developer, M.Sc',
+  workPlace: 'Digital Edge',
   location: 'Stockholm, SE',
-  summary: `I am a driven developer in the making, who is curious about most IT
+  summary: `I am a driven developer, who is curious about most IT
   related things, loves new technology and currently focused on AI.`
 }
 
